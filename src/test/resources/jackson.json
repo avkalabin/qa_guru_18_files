@@ -1,0 +1,14 @@
+{
+  "library": "Jackson Core",
+  "version": "2.13.1",
+  "license": "Apache 2.0",
+  "tags": ["format", "json", "jackson"],
+  "developer":
+    {
+      "name":"Tatu Saloranta",
+      "email": "tatu<at>fasterxml.com",
+      "devId": "cowtowncoder",
+      "roles": ["lead", "architect", "developer", "maintainer"],
+      "organisation": null
+    }
+}
