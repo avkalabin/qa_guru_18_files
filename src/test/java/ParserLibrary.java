@@ -1,12 +1,17 @@
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 import java.util.List;
 
 public class ParserLibrary {
     public String library;
     public String version;
+
     public String license;
     public List<String> tags;
-    public Developer developer;
+    @JsonFormat(pattern = "dd-MM-yyyy")
+    public Date date;
+    public List<Developer> developers;
 
     public static class Developer {
         public String name;

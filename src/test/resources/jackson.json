@@ -3,12 +3,22 @@
   "version": "2.13.1",
   "license": "Apache 2.0",
   "tags": ["format", "json", "jackson"],
-  "developer":
+  "date": "21-12-2021",
+  "developers": [
     {
       "name":"Tatu Saloranta",
       "email": "tatu<at>fasterxml.com",
       "devId": "cowtowncoder",
       "roles": ["lead", "architect", "developer", "maintainer"],
       "organisation": null
+    },
+    {
+      "name":"none",
+      "email": "none",
+      "devId": "none",
+      "roles": [],
+      "organisation": null
     }
+  ]
+
 }

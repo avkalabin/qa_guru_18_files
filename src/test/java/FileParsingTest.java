@@ -58,10 +58,8 @@ public class FileParsingTest {
             ParserLibrary parserLibrary = mapper.readValue(isr, ParserLibrary.class);
 
             Assertions.assertEquals("2.13.1", parserLibrary.version);
-            Assertions.assertEquals("Tatu Saloranta", parserLibrary.developer.name);
-
+            Assertions.assertEquals("Tatu Saloranta", parserLibrary.developers.get(0).name);
         }
-
     }
 }
 
